@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Aikaj Pathania</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Aikaj Pathania</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Aikaj Pathania Profile Picture"/>
+        </div>
+        <div class="sectuib__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Aikaj Pathania</h1>
+            <p class="section__text__p2">Data Analyst</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" 
+                onclick="window.open('./assets/Aikaj_Pathania_Data_Analyst.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" 
+                onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My linkedin Profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/aikajpathania/'"/>
+                <img src="./assets/github.png" alt="My Github Profile"
+                class="icon" onclick="location.href='https://github.com/Aikaj'"/>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.jpg" 
+                     alt="Profile Picture"
+                     class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" 
+                             alt="Experience Icon" class="icon"/>
+                             <h3>Experience</h3>
+                             <p>6 Months Internship<br/>Data Analyst</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" 
+                             alt="Education Icon" class="icon"/>
+                             <h3>Education</h3>
+                             <p>B.Tech | Artificial Intelligence and Data Science</p>
+                    </div>
+                    
+                </div>
+                <div class="text-container">
+                    <p>Results-driven Data Analyst with a strong foundation in data collection, analysis, and visualization. 
+                       Proficient in Python, SQL, and Excel for data manipulation, with hands-on experience in creating dynamic 
+                       dashboards and reports. Skilled in deriving actionable insights from data to support decision-making. 
+                       Quick learner with a keen interest in leveraging data for business solutions. Passionate about using 
+                       analytics to drive improvements in operational efficiency and business outcomes.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow image" class="icon arrow"
+        onclick="location.href='./#experience'"/>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Data Analyst Intern</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>Power Bi</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>ETL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>DAX</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>Cleaning</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>Modelling</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>DB Mgmt.</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Data Analyst Intern</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>Numpy</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>Pandas</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>MS Fabric</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>Excel</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>SQL Joins</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow image" class="icon arrow"
+        onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/Global Sales Power BI Dashboard.webp" alt="Project 1"
+                     class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Global Sales Dashboard</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" 
+                     onclick="location.href = 'https://www.linkedin.com/posts/aikajpathania_the-global-sales-dashboard-activity-7212414768270200832-m6Qn?utm_source=share&utm_medium=member_desktop'">
+                    Linkedin
+                    </button>
+                    <button class="btn btn-color-2 project-btn" 
+                     onclick="location.href = 'https://github.com/Aikaj/Power-Bi-Dashboards/blob/main/D_02_Global_Sales/D_02_Global_Sales.pbix'">
+                    Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+
+                <div class="article-container">
+                    <img src="./assets/Tic-Tac-Toe game.webp" alt="Project 2"
+                     class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Tic-Tac-Toe in Python</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" 
+                     onclick="location.href = 'https://github.com/Aikaj/Tic_Tac_Toe/blob/main/Tic-Tac-Toe.ipynb'">
+                    Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" 
+                     onclick="location.href = 'https://github.com/Aikaj/Tic_Tac_Toe/blob/main/Tic_Tac.png'">
+                    Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/House Price Prediction Project.webp" alt="Project 3"
+                     class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">House Price Prediction</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" 
+                     onclick="location.href = 'https://github.com/Aikaj/House_Price_Prediction'">
+                    Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" 
+                     onclick="location.href = 'https://github.com/Aikaj/House_Price_Prediction/blob/main/bangalore-house-price-prediction-model.ipynb'">
+                    Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow image" class="icon arrow"
+        onclick="location.href='./#projects'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" 
+                 class="icon contact-icon email-icon"/>
+                 <p><a href="mailto:aikajpathania@gmail.com">aikajpathania@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" 
+                 class="icon contact-icon"/>
+                 <p><a href="https://www.linkedin.com">Aikaj Pathania</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Aikaj Pathania. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
